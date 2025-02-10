@@ -1,0 +1,9 @@
+title: wiki.adelynnmckay.com
+author: Adelynn McKay
+description: Wiki of Adelynn McKay, see adelynnmckay.com for more.
+baseurl: ""
+url: "http://wiki.adelynnmckay.com"
+collections:
+  pages:
+    output: true
+    permalink: /:name

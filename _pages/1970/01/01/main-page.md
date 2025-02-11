@@ -1,17 +1,7 @@
 ---
-layout: page 
 permalink: /
 title: Main Page
-date: 1970-01-01 00:00:01 +0000
+featured_image: /assets/images/featured_image.png
 ---
 
-Notes of Adelynn McKay, see [adelynnmckay.com](http://adelynnmckay.com) for more.
-
-<ul>
-    {%- for page in site.pages -%}
-    <li>
-        <a href="{{ page.url }}">{{ page.title }}</a>
-        <span>{{ page.date }}</span>
-    </li>
-    {%- endfor -%}
-</ul>
+ade's notes. lots of stuff here. other things on <a href="https://adelynnmckay.com" style="color: deeppink;">ade's site</a>. have fun.

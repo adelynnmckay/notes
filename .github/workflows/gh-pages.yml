@@ -43,7 +43,7 @@ jobs:
     - name: Install dependencies
       run: |
         gem install bundler
-        bundle install
+        bundle install --without debug
 
     - name: Build Jekyll site
       run: |

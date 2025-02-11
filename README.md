@@ -1,3 +1,3 @@
-# [notes.adelynnmckay.com](http://notes.adelynnmckay.com/)
+# notes
 
-Notes of Adelynn McKay, see [adelynnmckay.com](http://adelynnmckay.com) for more.
+Git repository for [notes.adelynnmckay.com](http://notes.adelynnmckay.com/).

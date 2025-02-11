@@ -1,9 +1,44 @@
-title: wiki.adelynnmckay.com
-author: Adelynn McKay
-description: Wiki of Adelynn McKay, see adelynnmckay.com for more.
+title: "ade's notes"
+email: "192640919+adelynnmckay@users.noreply.github.com"
+author: "Adelynn McKay"
+description: "ade's notes. see adelynnmckay.com for other stuff."
 baseurl: ""
-url: "http://wiki.adelynnmckay.com"
+url: "http://notes.adelynnmckay.com/"
+apex_domain_url: "https://adelynnmckay.com/"
+subdomain: notes
+
+github:
+  username: adelynnmckay
+  repository: notes
+  branch: main
+  directory: "_pages"
+
+twitter:
+  username: adeposting
+
+theme: jekyll-theme-notes
+
+sass:
+  sass_dir: _sass
+  style: compressed 
+
+markdown: kramdown
+kramdown:
+    syntax_highlighter_opts:
+      disable: true
+
 collections:
   pages:
     output: true
+    copy: true
     permalink: /:name
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+search:
+  collection: pages

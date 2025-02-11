@@ -1,17 +1,9 @@
 .PHONY: all
-all: serve
-
-.PHONY: setup
-setup:
+all:
+	export JEKYLL_ENV=debug && \
 	bundle config set --local path 'vendor/bundle' && \
 	(bundle update || echo) && \
-	bundle install
-
-.PHONY: build
-build: setup
-	bundle exec jekyll build --trace
-
-.PHONY: serve
-serve: build
+	bundle install && \
+	mkdir -p _site && \
 	bundle exec jekyll serve --watch
 

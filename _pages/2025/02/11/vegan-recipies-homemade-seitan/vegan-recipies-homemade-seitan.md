@@ -11,18 +11,7 @@ categories:
 featured_image: /pages/2025/02/11/vegan-recipies-homemade-seitan/images/0.jpeg
 ---
 
-<style>
-    article img {
-        display: block;
-        width: auto;
-        margin: auto;
-        max-width: 100%;
-        max-height: 500px;
-        height: auto;
-    }
-</style>
-
-So here's a recipie for homemade seitan I came up with based on a few I found on some cooking sites. Seitan is one of the highest if not *the* highest in protein out of any vegan foods. We're talking like 21 grams per serving here, no joke. It's also dirt cheap to make, so for a vegan on a tight budget homemade seitan is super economical. Which is saying something, given that seitan is *super* expensive at the grocery store. And this recipie makes a *lot*. I mean a *lot* a lot. Plus, you can store seitan in the refrigerator or even the freezer, and because doing it at home means it's made fresh, it lasts quite a while. I had to adapt this recipie to what I had on hand at the time (I was too poor and hungry to follow one of the ones I found to the letter) but I think it worked out pretty good. 
+So here's a recipie for homemade seitan I came up with based on a few I found on some cooking sites. Seitan is one of the highest if not *the* highest in protein out of any vegan foods. We're talking like 21 grams per serving here, no joke. It's also dirt cheap to make, so for a vegan on a tight budget homemade seitan is super economical. Which is saying something, given that seitan is *super* expensive at the grocery store. And this recipie makes a *lot*. I mean a *lot* a lot. Plus, you can store seitan in the refrigerator or even the freezer, and because doing it at home means it's made fresh, it lasts quite a while. I had to adapt this recipie to what I had on hand at the time (I was too poor and hungry to follow one of the ones I found online to the letter) but I think it worked out pretty good. 
 
 ## Ingredients
 

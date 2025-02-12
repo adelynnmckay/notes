@@ -1,6 +1,6 @@
 ---
 title: List of Coffee Shops in Vancouver
-date: 2025-02-10 18:00:00 -0800
+date: 2025-02-10
 tags: 
   - vancouver
   - coffee

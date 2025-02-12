@@ -1,6 +1,6 @@
 ---
 title: Deploying a Jekyll Site to GitHub Pages Using GitHub Actions
-date: 2025-02-10 17:00:00 -0800
+date: 2025-02-10
 tags: 
   - jekyll
 categories: 

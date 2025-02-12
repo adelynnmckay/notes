@@ -1,6 +1,6 @@
 ---
 title: List of Tech Companies in Seattle
-date: 2025-02-10 19:00:00 -0800
+date: 2025-02-10
 tags: 
   - seattle
   - software-development

@@ -16,6 +16,8 @@ github:
 twitter:
   username: adeposting
 
+featured_image: "/assets/images/featured_image.jpg"
+
 theme: jekyll-theme-notes
 
 sass:

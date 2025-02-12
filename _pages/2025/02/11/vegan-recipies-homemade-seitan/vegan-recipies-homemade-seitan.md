@@ -1,6 +1,6 @@
 ---
 title: Vegan Recipies - Homemade Seitan
-date: 2025-02-11 12:00:00 -0800
+date: 2025-02-11
 tags:
     - vegan
     - cooking

@@ -5,5 +5,7 @@ all:
 	(bundle update || echo) && \
 	bundle install && \
 	mkdir -p _site && \
+	chmod +x _scripts/*.sh && \
+	_scripts/build.sh && \
 	bundle exec jekyll serve --watch
 

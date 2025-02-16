@@ -44,3 +44,20 @@ defaults:
 
 search:
   collection: pages
+
+exclude:
+  - .DS_Store
+  - .bundle
+  - .git
+  - .jekyll-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+  - .nx
+  - .sass-cache
+  - .vscode
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package-lock.json
+  - package.json
+  - vendor

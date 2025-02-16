@@ -1,8 +1,8 @@
 {
-    "name": "@adelynnmckay/metadata-rm",
+    "name": "@adelynnmckay/git-cache-rm-ignored",
     "version": "1.0.0",
     "bin": {
-      "metadata-rm": "bin/metadata-rm.sh"
+      "git-cache-rm-ignored": "bin/git-cache-rm-ignored.sh"
     },
     "scripts": {
       "build": ""

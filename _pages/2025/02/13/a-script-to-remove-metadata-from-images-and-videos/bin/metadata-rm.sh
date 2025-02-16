@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -ouex pipefail
+
 # Supported image and video formats
 IMAGE_EXTENSIONS="jpg|jpeg|png|gif|tiff|webp|bmp"
 VIDEO_EXTENSIONS="mp4|mov|avi|mkv|webm|flv"
@@ -49,29 +51,34 @@ install_dependencies() {
     done
 }
 
+remove_image_metadata() {
+    local file="$1"
+    echo "Processing image: $file"
+    exiftool -all= -overwrite_original "$file"
+}
+
+remove_video_metadata() {
+    local file="$1"
+    echo "Processing video: $file"
+    ffmpeg -i "$file" -map_metadata -1 -c:v copy -c:a copy "$file.tmp"
+
+    if [ $? -eq 0 ]; then
+        mv "$file.tmp" "$file"
+        echo "Metadata removed from: $file"
+    else
+        echo "Error processing video file: $file"
+    fi
+}
+
 # Function to remove metadata from a file
 remove_metadata() {
     local file="$1"
     local ext="${file##*.}"
     local ext_lower=$(echo "$ext" | tr '[:upper:]' '[:lower:]')
-
     if [[ "$ext_lower" =~ ^($IMAGE_EXTENSIONS)$ ]]; then
-        echo "Processing image: $file"
-        exiftool -all= -overwrite_original "$file"
-
+        remove_image_metadata "$file"
     elif [[ "$ext_lower" =~ ^($VIDEO_EXTENSIONS)$ ]]; then
-        echo "Processing video: $file"
-        ffmpeg -i "$file" -map_metadata -1 -c:v copy -c:a copy "clean_$file"
-
-        if [ $? -eq 0 ]; then
-            mv "clean_$file" "$file"
-            echo "Metadata removed from: $file"
-        else
-            echo "Error processing video file: $file"
-        fi
-
-    else
-        echo "Skipping unsupported file: $file"
+        remove_video_metadata "$file"
     fi
 }
 
@@ -79,15 +86,20 @@ remove_metadata() {
 process_directory() {
     local dir="$1"
     local find_opts=()
+    local all_extensions="$IMAGE_EXTENSIONS|$VIDEO_EXTENSIONS"
+    all_extensions=$(echo $all_extensions | tr '|' ' ')
 
-    if [ "$RECURSIVE" = true ]; then
-        find_opts+=("-type" "f")
-    else
-        find_opts+=("-maxdepth" "1" "-type" "f")
-    fi
-
-    find "$dir" "${find_opts[@]}" | while read -r file; do
-        remove_metadata "$file"
+    for ext in $all_extensions; do
+        find_opts=()
+        find_opts+=("-name" "*.$ext")
+        if [ "$RECURSIVE" = true ]; then
+            find_opts+=("-type" "f")
+        else
+            find_opts+=("-maxdepth" "1" "-type" "f")
+        fi
+        find "$dir" "${find_opts[@]}" | while read -r file; do
+            remove_metadata "$file"
+        done
     done
 }
 
@@ -137,5 +149,3 @@ for item in "${POSITIONAL_ARGS[@]}"; do
         echo "Error: '$item' is not a valid file or directory."
     fi
 done
-
-echo "All done!"

@@ -15,12 +15,12 @@ npm run build
 for package in $(find _pages -name package.json); do
     if jq -e 'has("bin")' "$package" >/dev/null; then
         directory=$(dirname "$package")
-        (cd "directory" && npm link)
+        (cd "$directory" && npm link --force)
     fi
 done
 
 export PATH="$PATH:${PWD}/node_modules/.bin"
 
-chmod +x "${PWD}/node_modules/.bin/*"
+chmod +x ${PWD}/node_modules/.bin/*
 
 metadata-rm --recursive --debug '.'

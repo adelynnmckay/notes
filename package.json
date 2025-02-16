@@ -2,8 +2,13 @@
     "private": true,
     "name": "@adelynnmckay/notes",
     "version": "1.0.0",
-    "workspaces": ["_pages/**"],
+    "workspaces": [
+        "_pages/**"
+    ],
     "scripts": {
-      "build": "nx run-many --target=build --all"
+        "build": "nx run-many --target=build --all"
+    },
+    "devDependencies": {
+        "nx": "^20.4.4"
     }
 }

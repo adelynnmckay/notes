@@ -1,8 +1,8 @@
 {
-    "name": "@adelynnmckay/metadata-rm",
+    "name": "@adelynnmckay/git-submodule-rm",
     "version": "1.0.0",
     "bin": {
-      "metadata-rm": "bin/metadata-rm.sh"
+      "git-submodule-rm": "bin/git-submodule-rm.sh"
     },
     "scripts": {
       "build": ""

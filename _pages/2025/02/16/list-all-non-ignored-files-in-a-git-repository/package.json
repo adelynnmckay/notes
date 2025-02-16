@@ -1,8 +1,8 @@
 {
-    "name": "@adelynnmckay/metadata-rm",
+    "name": "@adelynnmckay/git-file-ls",
     "version": "1.0.0",
     "bin": {
-      "metadata-rm": "bin/metadata-rm.sh"
+      "git-file-ls": "bin/git-file-ls.sh"
     },
     "scripts": {
       "build": ""

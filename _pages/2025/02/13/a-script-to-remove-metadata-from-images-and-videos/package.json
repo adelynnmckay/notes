@@ -1,0 +1,11 @@
+{
+    "name": "@adelynnmckay/metadata-rm",
+    "version": "1.0.0",
+    "bin": {
+      "mycli": "bin/metadata-rm.sh"
+    },
+    "scripts": {
+      "build": ""
+    },
+    "files": ["bin/**/*"]
+}

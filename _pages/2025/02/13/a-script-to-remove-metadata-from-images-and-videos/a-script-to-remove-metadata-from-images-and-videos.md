@@ -95,4 +95,4 @@ Here's the full script, you can also download and access a raw version [here](/p
 
 ```bash
 ```
-{: data-src='/pages/2025/02/13/a-script-to-remove-metadata-from-images-and-videos/rm_metadata.sh' }
+{: data-src='/pages/2025/02/13/a-script-to-remove-metadata-from-images-and-videos/bin/metadata-rm.sh' }

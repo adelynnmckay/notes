@@ -2,14 +2,25 @@
 
 set -ouex pipefail
 
-_remove_metadata_from_images_and_videos() {
-    cmd="./_pages/2025/02/13/a-script-to-remove-metadata-from-images-and-videos/rm_metadata.sh"
-    chmod +x $cmd
-    $cmd --recursive --debug '.'
-}
+which npm || brew install npm
 
-_main() {
-    _remove_metadata_from_images_and_videos
-}
+which jq || brew install jq
 
-_main
+npm install --save-dev nx
+
+npm install
+
+npm run build
+
+for package in $(find _pages -name package.json); do
+    if jq -e 'has("bin")' "$package" >/dev/null; then
+        directory=$(dirname "$package")
+        (cd "directory" && npm link)
+    fi
+done
+
+export PATH="$PATH:${PWD}/node_modules/.bin"
+
+chmod +x "${PWD}/node_modules/.bin/*"
+
+metadata-rm --recursive --debug '.'

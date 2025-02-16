@@ -1,0 +1,9 @@
+{
+    "private": true,
+    "name": "@adelynnmckay/notes",
+    "version": "1.0.0",
+    "workspaces": ["_pages/**"],
+    "scripts": {
+      "build": "nx run-many --target=build --all"
+    }
+}

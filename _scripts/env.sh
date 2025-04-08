@@ -1,0 +1,1 @@
+export JEKYLL_ENV=debug

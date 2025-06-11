@@ -11,14 +11,14 @@ tags:
     - nutrition
     - recipe
     - vegan
-featured_image: /pages/2025/06/15/vegan-recipe-for-homemade-seitan/images/0.jpeg
+featured_image: vegan-recipie-for-homemade-seitan_0.jpeg
 ---
 
 So here's a recipe for homemade seitan I came up with based on a few I found on some cooking sites. Seitan is one of the highest if not *the* highest in protein out of any vegan foods. We're talking like 21 grams per serving here, no joke. It's also dirt cheap to make, so for a vegan on a tight budget homemade seitan is super economical. Which is saying something, given that seitan is *super* expensive at the grocery store. And this recipie makes a *lot*. I mean a *lot* a lot. Plus, you can store seitan in the refrigerator or even the freezer, and because doing it at home means it's made fresh, it lasts quite a while. I had to adapt this recipie to what I had on hand at the time (I was too poor and hungry to follow one of the ones I found online to the letter) but I think it worked out pretty good. 
 
 ## Ingredients
 
-![](/pages/2025/06/15/vegan-recipe-for-homemade-seitan/images/1.jpeg)
+![](vegan-recipie-for-homemade-seitan_1.jpeg)
 
 - Vital weat gluten flour
 - Soy sauce
@@ -67,7 +67,7 @@ So here's a recipe for homemade seitan I came up with based on a few I found on 
 
 **5. Leave the dough to set.**
 
-![](/pages/2025/06/15/vegan-recipe-for-homemade-seitan/images/2.jpeg)
+![](vegan-recipie-for-homemade-seitan_2.jpeg)
 
 - Place a little bit of vial wheat gluten in the mixing bowl.
 - Put the dough in the mixing bowl.
@@ -91,7 +91,7 @@ So here's a recipe for homemade seitan I came up with based on a few I found on 
 
 **8. Once the dough is ready, prepare the uncooked seitan.**
 
-![](/pages/2025/06/15/vegan-recipe-for-homemade-seitan/images/3.jpeg)
+![](vegan-recipie-for-homemade-seitan_3.jpeg)
 
 - Divide the dough into two parts.
 - The two parts should not be flat, but be mini loaves.
@@ -99,7 +99,7 @@ So here's a recipe for homemade seitan I came up with based on a few I found on 
 
 **9. Cook the seitan for 30 minutes.**
 
-![](/pages/2025/06/15/vegan-recipe-for-homemade-seitan/images/4.jpeg)
+![](vegan-recipie-for-homemade-seitan_4.jpeg)
 
 - Set a timer for 30 minutes.
 - Slowly and gently add the seitan to the pot of slow boiling water.
@@ -108,7 +108,7 @@ So here's a recipe for homemade seitan I came up with based on a few I found on 
 
 **10. Prepare the cooked seitan.**
 
-![](/pages/2025/06/15/vegan-recipe-for-homemade-seitan/images/5.jpeg)
+![](vegan-recipie-for-homemade-seitan_5.jpeg)
 
 - Scoop the seitan out of the cooking pot onto the bread board.
 - Wait for it to cool enough to handle.
@@ -116,7 +116,7 @@ So here's a recipe for homemade seitan I came up with based on a few I found on 
 
 **11. Fry the cooked seitan.**
 
-![](/pages/2025/06/15/vegan-recipe-for-homemade-seitan/images/6.jpeg)
+![](vegan-recipie-for-homemade-seitan_6.jpeg)
 
 - Store the cooking broth for later use in an airtight container in the refrigerator.
 - Store any of the seitan you don't want to eat now with a bit of broth in an airtight container in the refrigerator (or with no broth in the freezer).
@@ -124,7 +124,7 @@ So here's a recipe for homemade seitan I came up with based on a few I found on 
 - Fry in a pan with a dash of oil and a little soy or teriyaki sauce.
 - You can either season in the pan with sesame seeds or do it after plating.
 
-![](/pages/2025/06/15/vegan-recipe-for-homemade-seitan/images/7.jpeg)
+![](vegan-recipie-for-homemade-seitan_7.jpeg)
 
 ---
 

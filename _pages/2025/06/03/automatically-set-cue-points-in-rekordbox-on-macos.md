@@ -17,7 +17,7 @@ tags:
   - software-engineering
 ---
 
-<video style="margin:auto;" width="80%" height="auto" autoplay loop muted>
+<video style="margin:auto;display:flex;" width="80%" height="auto" autoplay loop muted>
   <source src="/automatically-set-cue-points-in-rekordbox-on-macos_featured-image.webm" type="video/mp4" />
   Your browser does not support the video tag.
 </video>

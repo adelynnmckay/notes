@@ -15,8 +15,12 @@ tags:
   - software
   - software-development
   - software-engineering
-featured_image: /pages/2025/06/03/automatically-set-cue-points-in-rekordbox-on-macos/featured-image.webm
 ---
+
+<video style="margin:auto;" width="80%" height="auto" autoplay loop muted>
+  <source src="/automatically-set-cue-points-in-rekordbox-on-macos_featured-image.webm" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
 This article describes a JavaScript-based automation script for Rekordbox that helps DJs automatically set memory cues and hot cues for their tracks. The script is particularly useful for batch processing multiple tracks in a playlist, saving time and ensuring consistent cue point placement.
 
@@ -26,7 +30,7 @@ Before using the script, you need to set up the keyboard shortcuts in Rekordbox:
 
 1. Open Rekordbox
 2. Go to rekordbox => Preferences => Keyboard
-3. Download and import the [`rekordbox-keymap.xml`](/pages/2025/06/03/automatically-set-cue-points-in-rekordbox-on-macos/rekordbox-keymap.xml) file (located in the same directory as the script)
+3. Download and import the [`rekordbox-keymap.xml`](/automatically-set-cue-points-in-rekordbox-on-macos_rekordbox-keymap.xml) file
 4. Alternatively, manually configure the following shortcuts under "Performance 1 (Preset)" for "Deck 1":
 
 ### Essential Keyboard Shortcuts
@@ -77,7 +81,7 @@ The script provides several automated functions for managing cue points:
 ## Usage
 
 1. Open the **Rekordbox** application.
-2. Download the [`rekordbox.js`](/pages/2025/06/03/automatically-set-cue-points-in-rekordbox-on-macos/rekordbox.js).
+2. Download the [`rekordbox.js`](/automatically-set-cue-points-in-rekordbox-on-macos_rekordbox.js).
 3. Open the **Script Editor** application.
 4. Open the `rekordbox.js` script in the **Script Editor**.
 5. Change the language to Javascript.
@@ -134,7 +138,7 @@ The script uses JavaScript for macOS automation (JXA) to:
 
 ## Installation
 
-1. Download the script file ([`rekordbox.js`](/pages/2025/06/03/automatically-set-cue-points-in-rekordbox-on-macos/rekordbox.js))
+1. Download the script file [`rekordbox.js`](/automatically-set-cue-points-in-rekordbox-on-macos_rekordbox.js)
 2. Make it executable: `chmod +x rekordbox.js`
 3. Ensure the keyboard shortcuts are configured
 4. Run the script: `./rekordbox.js`
@@ -157,4 +161,4 @@ If the script doesn't work as expected:
 
 ```js
 ```
-{: data-src='rekordbox.js' }
+{: data-src='/automatically-set-cue-points-in-rekordbox-on-macos_rekordbox.js' }

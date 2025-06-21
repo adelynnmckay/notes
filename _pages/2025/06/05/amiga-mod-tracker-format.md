@@ -18,11 +18,6 @@ tags:
   - vintage-software
 ---
 
-
----
-
-# Amiga MOD Tracker Format
-
 ## Overview
 
 The **Amiga MOD** file format is one of the earliest and most influential formats for creating and playing music on personal computers. Originally developed for the **Commodore Amiga** in the late 1980s, it stores music created using **tracker software**, which combines pattern-based sequencing with embedded audio samples.

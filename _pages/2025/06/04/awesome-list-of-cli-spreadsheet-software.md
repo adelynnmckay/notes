@@ -14,7 +14,7 @@ tags:
   - application
 ---
 
-> A curated list of terminal-based spreadsheet programs and command-line tools for working with tabular data. Inspired by [Awesome Lists](https://awesome.re). 
+A curated list of terminal-based spreadsheet programs and command-line tools for working with tabular data. Inspired by [Awesome Lists](https://awesome.re). 
 
 ![Awesome](https://awesome.re/badge.svg)
 
